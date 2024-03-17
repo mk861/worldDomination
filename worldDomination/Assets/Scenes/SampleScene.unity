@@ -134,9 +134,10 @@ GameObject:
   - component: {fileID: 68114021}
   - component: {fileID: 68114022}
   - component: {fileID: 68114023}
+  - component: {fileID: 68114024}
   m_Layer: 0
   m_Name: iceland
-  m_TagString: Untagged
+  m_TagString: Europe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -333,6 +334,18 @@ PolygonCollider2D:
       - {x: 0.5185921, y: -0.04444322}
       - {x: 0.54793274, y: -0.009846866}
   m_UseDelaunayMesh: 0
+--- !u!114 &68114024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68114020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &72733548
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,9 +357,10 @@ GameObject:
   - component: {fileID: 72733549}
   - component: {fileID: 72733550}
   - component: {fileID: 72733551}
+  - component: {fileID: 72733552}
   m_Layer: 0
   m_Name: siberia
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -719,6 +733,18 @@ PolygonCollider2D:
       - {x: 0.37936825, y: -0.87713456}
       - {x: 0.41691163, y: -0.82495105}
   m_UseDelaunayMesh: 0
+--- !u!114 &72733552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72733548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &78864531
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,9 +756,10 @@ GameObject:
   - component: {fileID: 78864532}
   - component: {fileID: 78864533}
   - component: {fileID: 78864534}
+  - component: {fileID: 78864535}
   m_Layer: 0
   m_Name: northern_europe
-  m_TagString: Untagged
+  m_TagString: Europe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -976,6 +1003,18 @@ PolygonCollider2D:
       - {x: 0.8830527, y: 0.032684665}
       - {x: 0.83803725, y: 0.08752883}
   m_UseDelaunayMesh: 0
+--- !u!114 &78864535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78864531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &118149433
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,9 +1026,10 @@ GameObject:
   - component: {fileID: 118149434}
   - component: {fileID: 118149435}
   - component: {fileID: 118149436}
+  - component: {fileID: 118149437}
   m_Layer: 0
   m_Name: siam
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1223,6 +1263,18 @@ PolygonCollider2D:
       - {x: 0.3865023, y: -0.5972438}
       - {x: 0.46903995, y: -0.7751364}
   m_UseDelaunayMesh: 0
+--- !u!114 &118149437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118149433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &131792446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,9 +1286,10 @@ GameObject:
   - component: {fileID: 131792447}
   - component: {fileID: 131792448}
   - component: {fileID: 131792449}
+  - component: {fileID: 131792450}
   m_Layer: 0
   m_Name: congo
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1515,6 +1568,18 @@ PolygonCollider2D:
       - {x: 0.7883727, y: 0.016537916}
       - {x: 0.8078749, y: 0.056459278}
   m_UseDelaunayMesh: 0
+--- !u!114 &131792450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131792446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &133273865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,9 +1626,10 @@ GameObject:
   - component: {fileID: 171616286}
   - component: {fileID: 171616287}
   - component: {fileID: 171616288}
+  - component: {fileID: 171616289}
   m_Layer: 0
   m_Name: new_guinea
-  m_TagString: Untagged
+  m_TagString: Oceana
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1769,6 +1835,18 @@ PolygonCollider2D:
       - {x: 0.6703135, y: -0.14046103}
       - {x: 0.69249684, y: -0.09613752}
   m_UseDelaunayMesh: 0
+--- !u!114 &171616289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171616285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &180447349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,9 +1858,10 @@ GameObject:
   - component: {fileID: 180447350}
   - component: {fileID: 180447351}
   - component: {fileID: 180447352}
+  - component: {fileID: 180447353}
   m_Layer: 0
   m_Name: ural
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2095,6 +2174,18 @@ PolygonCollider2D:
       - {x: 0.80273825, y: -1.1113042}
       - {x: 0.783246, y: -1.0849168}
   m_UseDelaunayMesh: 0
+--- !u!114 &180447353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180447349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &201459999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,9 +2197,10 @@ GameObject:
   - component: {fileID: 201460000}
   - component: {fileID: 201460001}
   - component: {fileID: 201460002}
+  - component: {fileID: 201460003}
   m_Layer: 0
   m_Name: indonesia
-  m_TagString: Untagged
+  m_TagString: Oceana
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2333,6 +2425,18 @@ PolygonCollider2D:
       - {x: 0.7130437, y: -0.71769184}
       - {x: 0.7113591, y: -0.71238077}
   m_UseDelaunayMesh: 0
+--- !u!114 &201460003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201459999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &213821662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,10 +2448,10 @@ GameObject:
   - component: {fileID: 213821663}
   - component: {fileID: 213821664}
   - component: {fileID: 213821665}
-  - component: {fileID: 213821666}
+  - component: {fileID: 213821667}
   m_Layer: 0
   m_Name: alaska
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2609,7 +2713,7 @@ PolygonCollider2D:
       - {x: 0.82314485, y: -0.5457612}
       - {x: 0.8289214, y: -0.37314773}
   m_UseDelaunayMesh: 0
---- !u!114 &213821666
+--- !u!114 &213821667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2618,10 +2722,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 213821662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 213821664}
 --- !u!1 &236755261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,9 +2736,10 @@ GameObject:
   - component: {fileID: 236755262}
   - component: {fileID: 236755263}
   - component: {fileID: 236755264}
+  - component: {fileID: 236755265}
   m_Layer: 0
   m_Name: brazil
-  m_TagString: Untagged
+  m_TagString: South_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2921,6 +3025,86 @@ PolygonCollider2D:
       - {x: 1.0210907, y: -0.66431147}
       - {x: 1.067103, y: -0.6364618}
   m_UseDelaunayMesh: 0
+--- !u!114 &236755265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236755261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &251965360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 251965363}
+  - component: {fileID: 251965362}
+  - component: {fileID: 251965361}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &251965361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251965360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &251965362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251965360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &251965363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251965360}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &325805345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2932,9 +3116,10 @@ GameObject:
   - component: {fileID: 325805346}
   - component: {fileID: 325805347}
   - component: {fileID: 325805348}
+  - component: {fileID: 325805349}
   m_Layer: 0
   m_Name: ukraine
-  m_TagString: Untagged
+  m_TagString: Europe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3377,6 +3562,18 @@ PolygonCollider2D:
       - {x: 0.5257247, y: -1.407776}
       - {x: 0.51400024, y: -1.378469}
   m_UseDelaunayMesh: 0
+--- !u!114 &325805349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325805345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &408526578
 GameObject:
   m_ObjectHideFlags: 0
@@ -3388,9 +3585,10 @@ GameObject:
   - component: {fileID: 408526579}
   - component: {fileID: 408526580}
   - component: {fileID: 408526581}
+  - component: {fileID: 408526582}
   m_Layer: 0
   m_Name: western_europe
-  m_TagString: Untagged
+  m_TagString: Europe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3625,6 +3823,18 @@ PolygonCollider2D:
       - {x: 0.27701867, y: -0.35490456}
       - {x: 0.25126493, y: -0.26077154}
   m_UseDelaunayMesh: 0
+--- !u!114 &408526582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408526578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &411030347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3674,9 +3884,10 @@ GameObject:
   - component: {fileID: 455543404}
   - component: {fileID: 455543405}
   - component: {fileID: 455543406}
+  - component: {fileID: 455543407}
   m_Layer: 0
   m_Name: scandinavia
-  m_TagString: Untagged
+  m_TagString: Europe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3938,6 +4149,18 @@ PolygonCollider2D:
       - {x: 0.12723972, y: -0.3829671}
       - {x: 0.12816653, y: -0.31278697}
   m_UseDelaunayMesh: 0
+--- !u!114 &455543407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455543403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4041,9 +4264,10 @@ GameObject:
   - component: {fileID: 528330055}
   - component: {fileID: 528330056}
   - component: {fileID: 528330057}
+  - component: {fileID: 528330058}
   m_Layer: 0
   m_Name: japan
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4273,6 +4497,18 @@ PolygonCollider2D:
       - {x: 0.42291155, y: -0.31727126}
       - {x: 0.50098246, y: -0.3169194}
   m_UseDelaunayMesh: 0
+--- !u!114 &528330058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528330054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &548712435
 GameObject:
   m_ObjectHideFlags: 0
@@ -4284,10 +4520,10 @@ GameObject:
   - component: {fileID: 548712436}
   - component: {fileID: 548712439}
   - component: {fileID: 548712438}
-  - component: {fileID: 548712440}
+  - component: {fileID: 548712441}
   m_Layer: 0
   m_Name: alberta
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4437,7 +4673,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &548712440
+--- !u!114 &548712441
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4446,10 +4682,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 548712435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 548712439}
 --- !u!1 &607913122
 GameObject:
   m_ObjectHideFlags: 0
@@ -4461,9 +4696,10 @@ GameObject:
   - component: {fileID: 607913123}
   - component: {fileID: 607913124}
   - component: {fileID: 607913125}
+  - component: {fileID: 607913126}
   m_Layer: 0
   m_Name: kamchatka
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4823,6 +5059,18 @@ PolygonCollider2D:
       - {x: -0.32240584, y: -0.4994604}
       - {x: -0.30139875, y: -0.49191952}
   m_UseDelaunayMesh: 0
+--- !u!114 &607913126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607913122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &624906928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4834,9 +5082,10 @@ GameObject:
   - component: {fileID: 624906929}
   - component: {fileID: 624906930}
   - component: {fileID: 624906931}
+  - component: {fileID: 624906932}
   m_Layer: 0
   m_Name: afghanistan
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5110,6 +5359,18 @@ PolygonCollider2D:
       - {x: 0.8441069, y: -0.810852}
       - {x: 0.87486917, y: -0.76530015}
   m_UseDelaunayMesh: 0
+--- !u!114 &624906932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624906928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &652633408
 GameObject:
   m_ObjectHideFlags: 0
@@ -5121,9 +5382,10 @@ GameObject:
   - component: {fileID: 652633409}
   - component: {fileID: 652633410}
   - component: {fileID: 652633411}
+  - component: {fileID: 652633412}
   m_Layer: 0
   m_Name: eastern_australia
-  m_TagString: Untagged
+  m_TagString: Oceana
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5318,6 +5580,18 @@ PolygonCollider2D:
       - {x: 0.67387664, y: -0.7763923}
       - {x: 0.7842412, y: -0.703296}
   m_UseDelaunayMesh: 0
+--- !u!114 &652633412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652633408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &668337540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5329,9 +5603,10 @@ GameObject:
   - component: {fileID: 668337541}
   - component: {fileID: 668337542}
   - component: {fileID: 668337543}
+  - component: {fileID: 668337544}
   m_Layer: 0
   m_Name: western_australia
-  m_TagString: Untagged
+  m_TagString: Oceana
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5538,6 +5813,152 @@ PolygonCollider2D:
       - {x: 1.0532272, y: -0.38601974}
       - {x: 1.0590867, y: 0.17772782}
   m_UseDelaunayMesh: 0
+--- !u!114 &668337544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668337540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &808341053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 808341054}
+  - component: {fileID: 808341056}
+  - component: {fileID: 808341055}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &808341054
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808341053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1433880402}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &808341055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808341053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Roll Dice
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 53.7
+  m_fontSizeBase: 53.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 17
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &808341056
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808341053}
+  m_CullTransparentMesh: 1
 --- !u!1 &882012676
 GameObject:
   m_ObjectHideFlags: 0
@@ -5549,10 +5970,10 @@ GameObject:
   - component: {fileID: 882012677}
   - component: {fileID: 882012678}
   - component: {fileID: 882012679}
-  - component: {fileID: 882012680}
+  - component: {fileID: 882012681}
   m_Layer: 0
   m_Name: north_west_territory
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5743,7 +6164,7 @@ PolygonCollider2D:
       - {x: 1.5217069, y: -0.14454457}
       - {x: 1.615472, y: -0.04976823}
   m_UseDelaunayMesh: 0
---- !u!114 &882012680
+--- !u!114 &882012681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5752,10 +6173,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 882012676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 882012678}
 --- !u!1 &911335465
 GameObject:
   m_ObjectHideFlags: 0
@@ -5804,9 +6224,10 @@ GameObject:
   - component: {fileID: 938832000}
   - component: {fileID: 938832001}
   - component: {fileID: 938832002}
+  - component: {fileID: 938832003}
   m_Layer: 0
   m_Name: argentina
-  m_TagString: Untagged
+  m_TagString: South_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6113,6 +6534,18 @@ PolygonCollider2D:
       - {x: 0.24128821, y: -1.630345}
       - {x: 0.20386907, y: -1.6266115}
   m_UseDelaunayMesh: 0
+--- !u!114 &938832003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938831999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &986732688
 GameObject:
   m_ObjectHideFlags: 0
@@ -6124,10 +6557,10 @@ GameObject:
   - component: {fileID: 986732689}
   - component: {fileID: 986732690}
   - component: {fileID: 986732691}
-  - component: {fileID: 986732692}
+  - component: {fileID: 986732693}
   m_Layer: 0
   m_Name: ontario
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6300,7 +6733,7 @@ PolygonCollider2D:
       - {x: 0.7545565, y: -0.637644}
       - {x: 0.7463725, y: -0.6003271}
   m_UseDelaunayMesh: 0
---- !u!114 &986732692
+--- !u!114 &986732693
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6309,10 +6742,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 986732688}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 986732690}
 --- !u!1 &1000924797
 GameObject:
   m_ObjectHideFlags: 0
@@ -6327,7 +6759,7 @@ GameObject:
   - component: {fileID: 1000924801}
   m_Layer: 0
   m_Name: estern_united_states
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6601,10 +7033,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000924797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1000924799}
 --- !u!1 &1082709707
 GameObject:
   m_ObjectHideFlags: 0
@@ -6616,9 +7047,10 @@ GameObject:
   - component: {fileID: 1082709708}
   - component: {fileID: 1082709709}
   - component: {fileID: 1082709710}
+  - component: {fileID: 1082709711}
   m_Layer: 0
   m_Name: irkutsk
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6902,6 +7334,18 @@ PolygonCollider2D:
       - {x: 0.2881901, y: -0.57573575}
       - {x: 0.3075407, y: -0.53221256}
   m_UseDelaunayMesh: 0
+--- !u!114 &1082709711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082709707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1164585754
 GameObject:
   m_ObjectHideFlags: 0
@@ -6913,10 +7357,10 @@ GameObject:
   - component: {fileID: 1164585755}
   - component: {fileID: 1164585756}
   - component: {fileID: 1164585757}
-  - component: {fileID: 1164585758}
+  - component: {fileID: 1164585759}
   m_Layer: 0
   m_Name: western_united_states
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7077,7 +7521,7 @@ PolygonCollider2D:
       - {x: 0.60246533, y: -0.11042098}
       - {x: 0.8965463, y: -0.10741003}
   m_UseDelaunayMesh: 0
---- !u!114 &1164585758
+--- !u!114 &1164585759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7086,10 +7530,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1164585754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1164585756}
 --- !u!1 &1235260210
 GameObject:
   m_ObjectHideFlags: 0
@@ -7101,10 +7544,10 @@ GameObject:
   - component: {fileID: 1235260211}
   - component: {fileID: 1235260212}
   - component: {fileID: 1235260213}
-  - component: {fileID: 1235260214}
+  - component: {fileID: 1235260215}
   m_Layer: 0
   m_Name: central_america
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7368,7 +7811,7 @@ PolygonCollider2D:
       - {x: 0.6387151, y: -0.17479482}
       - {x: 0.6786736, y: -0.15861142}
   m_UseDelaunayMesh: 0
---- !u!114 &1235260214
+--- !u!114 &1235260215
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7377,10 +7820,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235260210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1235260212}
 --- !u!1 &1280601387
 GameObject:
   m_ObjectHideFlags: 0
@@ -7442,10 +7884,10 @@ GameObject:
   - component: {fileID: 1282307779}
   - component: {fileID: 1282307780}
   - component: {fileID: 1282307781}
-  - component: {fileID: 1282307782}
+  - component: {fileID: 1282307783}
   m_Layer: 0
   m_Name: quebec
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7687,7 +8129,7 @@ PolygonCollider2D:
       - {x: 0.38127625, y: -0.7682103}
       - {x: 0.35655805, y: -0.74949884}
   m_UseDelaunayMesh: 0
---- !u!114 &1282307782
+--- !u!114 &1282307783
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7696,10 +8138,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1282307778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1282307780}
 --- !u!1 &1330229761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7711,9 +8152,10 @@ GameObject:
   - component: {fileID: 1330229762}
   - component: {fileID: 1330229763}
   - component: {fileID: 1330229764}
+  - component: {fileID: 1330229765}
   m_Layer: 0
   m_Name: egypt
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7938,6 +8380,18 @@ PolygonCollider2D:
       - {x: 0.9479047, y: -0.413924}
       - {x: 0.9588187, y: -0.38807458}
   m_UseDelaunayMesh: 0
+--- !u!114 &1330229765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330229761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1358296601
 GameObject:
   m_ObjectHideFlags: 0
@@ -7949,9 +8403,10 @@ GameObject:
   - component: {fileID: 1358296602}
   - component: {fileID: 1358296603}
   - component: {fileID: 1358296604}
+  - component: {fileID: 1358296605}
   m_Layer: 0
   m_Name: great_britain
-  m_TagString: Untagged
+  m_TagString: Europe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7965,7 +8420,7 @@ Transform:
   m_GameObject: {fileID: 1358296601}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3361745, y: 0.67054415, z: 0.049838193}
+  m_LocalPosition: {x: -2.268, y: 0.69, z: 0.049838193}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8242,6 +8697,139 @@ PolygonCollider2D:
       - {x: 0.5444557, y: -0.7030272}
       - {x: 0.5910763, y: -0.6835445}
   m_UseDelaunayMesh: 0
+--- !u!114 &1358296605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358296601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1433880401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433880402}
+  - component: {fileID: 1433880405}
+  - component: {fileID: 1433880404}
+  - component: {fileID: 1433880403}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1433880402
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433880401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 808341054}
+  m_Father: {fileID: 1731060317}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -743, y: -377}
+  m_SizeDelta: {x: 284.7181, y: 119.4205}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1433880403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433880401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.4478813, g: 0.8207547, b: 0.23616053, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: ea1dddf6eb4eb1245ada1fb1c3aa78ab, type: 3}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1433880404}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1433880404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433880401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1433880405
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433880401}
+  m_CullTransparentMesh: 1
 --- !u!1 &1515933571
 GameObject:
   m_ObjectHideFlags: 0
@@ -8253,9 +8841,10 @@ GameObject:
   - component: {fileID: 1515933572}
   - component: {fileID: 1515933573}
   - component: {fileID: 1515933574}
+  - component: {fileID: 1515933575}
   m_Layer: 0
   m_Name: middle_east
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8584,6 +9173,18 @@ PolygonCollider2D:
       - {x: 1.0591712, y: -1.1028085}
       - {x: 1.216039, y: -0.8217788}
   m_UseDelaunayMesh: 0
+--- !u!114 &1515933575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515933571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1528029965
 GameObject:
   m_ObjectHideFlags: 0
@@ -8595,9 +9196,10 @@ GameObject:
   - component: {fileID: 1528029966}
   - component: {fileID: 1528029967}
   - component: {fileID: 1528029968}
+  - component: {fileID: 1528029969}
   m_Layer: 0
   m_Name: mongolia
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8890,6 +9492,18 @@ PolygonCollider2D:
       - {x: 0.45063472, y: -0.6906994}
       - {x: 0.43433663, y: -0.6597394}
   m_UseDelaunayMesh: 0
+--- !u!114 &1528029969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528029965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1530169531
 GameObject:
   m_ObjectHideFlags: 0
@@ -8901,9 +9515,10 @@ GameObject:
   - component: {fileID: 1530169532}
   - component: {fileID: 1530169533}
   - component: {fileID: 1530169534}
+  - component: {fileID: 1530169535}
   m_Layer: 0
   m_Name: india
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9193,6 +9808,18 @@ PolygonCollider2D:
       - {x: 0.53719115, y: -0.4882225}
       - {x: 0.5395932, y: -0.34411564}
   m_UseDelaunayMesh: 0
+--- !u!114 &1530169535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530169531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1548951818
 GameObject:
   m_ObjectHideFlags: 0
@@ -9204,10 +9831,10 @@ GameObject:
   - component: {fileID: 1548951819}
   - component: {fileID: 1548951820}
   - component: {fileID: 1548951821}
-  - component: {fileID: 1548951822}
+  - component: {fileID: 1548951823}
   m_Layer: 0
   m_Name: greenland
-  m_TagString: Untagged
+  m_TagString: North_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9460,7 +10087,7 @@ PolygonCollider2D:
       - {x: 0.39111266, y: -0.6062736}
       - {x: 0.44811597, y: -0.5218328}
   m_UseDelaunayMesh: 0
---- !u!114 &1548951822
+--- !u!114 &1548951823
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9469,10 +10096,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1548951818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f71a5b1bc3f9498bb75c20176080c, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1548951820}
 --- !u!1 &1601613360
 GameObject:
   m_ObjectHideFlags: 0
@@ -9484,9 +10110,10 @@ GameObject:
   - component: {fileID: 1601613361}
   - component: {fileID: 1601613362}
   - component: {fileID: 1601613363}
+  - component: {fileID: 1601613364}
   m_Layer: 0
   m_Name: east_africa
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9784,6 +10411,18 @@ PolygonCollider2D:
       - {x: 0.057997636, y: -1.149823}
       - {x: 0.08349795, y: -1.1237068}
   m_UseDelaunayMesh: 0
+--- !u!114 &1601613364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601613360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1618182307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9795,9 +10434,10 @@ GameObject:
   - component: {fileID: 1618182308}
   - component: {fileID: 1618182309}
   - component: {fileID: 1618182310}
+  - component: {fileID: 1618182311}
   m_Layer: 0
   m_Name: yakutsk
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10057,6 +10697,161 @@ PolygonCollider2D:
       - {x: 0.12079859, y: -0.6309202}
       - {x: 0.20978042, y: -0.54062235}
   m_UseDelaunayMesh: 0
+--- !u!114 &1618182311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618182307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1652511568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1652511571}
+  - component: {fileID: 1652511570}
+  - component: {fileID: 1652511569}
+  - component: {fileID: 1652511572}
+  m_Layer: 0
+  m_Name: Dice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1652511569
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652511568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.22, y: 1.22}
+    newSize: {x: 1.22, y: 1.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.22, y: 1.22}
+  m_EdgeRadius: 0
+--- !u!212 &1652511570
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652511568}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2cbd92a1ad09aea4da7833813f365007, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.22, y: 1.22}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1652511571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652511568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1652511572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652511568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b180dab9540ae70499afa2ee9e816e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1680183251
 GameObject:
   m_ObjectHideFlags: 0
@@ -10068,9 +10863,10 @@ GameObject:
   - component: {fileID: 1680183252}
   - component: {fileID: 1680183253}
   - component: {fileID: 1680183254}
+  - component: {fileID: 1680183255}
   m_Layer: 0
   m_Name: madagascar
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10243,6 +11039,18 @@ PolygonCollider2D:
       - {x: 0.43835202, y: 0.355678}
       - {x: 0.45157236, y: 0.36296222}
   m_UseDelaunayMesh: 0
+--- !u!114 &1680183255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680183251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1693564093
 GameObject:
   m_ObjectHideFlags: 0
@@ -10254,9 +11062,10 @@ GameObject:
   - component: {fileID: 1693564094}
   - component: {fileID: 1693564095}
   - component: {fileID: 1693564096}
+  - component: {fileID: 1693564097}
   m_Layer: 0
   m_Name: peru
-  m_TagString: Untagged
+  m_TagString: South_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10503,6 +11312,18 @@ PolygonCollider2D:
       - {x: 0.74430764, y: -0.22649883}
       - {x: 0.70961595, y: -0.18059802}
   m_UseDelaunayMesh: 0
+--- !u!114 &1693564097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693564093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1704164569
 GameObject:
   m_ObjectHideFlags: 0
@@ -10514,9 +11335,10 @@ GameObject:
   - component: {fileID: 1704164570}
   - component: {fileID: 1704164571}
   - component: {fileID: 1704164572}
+  - component: {fileID: 1704164573}
   m_Layer: 0
   m_Name: china
-  m_TagString: Untagged
+  m_TagString: Asia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10887,6 +11709,18 @@ PolygonCollider2D:
       - {x: 1.5527749, y: -0.6808256}
       - {x: 1.5617158, y: -0.6306822}
   m_UseDelaunayMesh: 0
+--- !u!114 &1704164573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704164569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1712450556
 GameObject:
   m_ObjectHideFlags: 0
@@ -10898,9 +11732,10 @@ GameObject:
   - component: {fileID: 1712450557}
   - component: {fileID: 1712450558}
   - component: {fileID: 1712450559}
+  - component: {fileID: 1712450560}
   m_Layer: 0
   m_Name: north_africa
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11182,6 +12017,18 @@ PolygonCollider2D:
       - {x: 1.1154302, y: -0.96995896}
       - {x: 1.2581805, y: -0.9042255}
   m_UseDelaunayMesh: 0
+--- !u!114 &1712450560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712450556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1722467283
 GameObject:
   m_ObjectHideFlags: 0
@@ -11193,9 +12040,10 @@ GameObject:
   - component: {fileID: 1722467284}
   - component: {fileID: 1722467285}
   - component: {fileID: 1722467286}
+  - component: {fileID: 1722467287}
   m_Layer: 0
   m_Name: venezuela
-  m_TagString: Untagged
+  m_TagString: South_America
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11400,6 +12248,120 @@ PolygonCollider2D:
       - {x: 0.036381636, y: -0.21740454}
       - {x: 0.03498466, y: -0.13457847}
   m_UseDelaunayMesh: 0
+--- !u!114 &1722467287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722467283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1731060313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1731060317}
+  - component: {fileID: 1731060316}
+  - component: {fileID: 1731060315}
+  - component: {fileID: 1731060314}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1731060314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731060313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1731060315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731060313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1731060316
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731060313}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1731060317
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731060313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1433880402}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1800093465
 GameObject:
   m_ObjectHideFlags: 0
@@ -11451,9 +12413,10 @@ GameObject:
   - component: {fileID: 1846331679}
   - component: {fileID: 1846331680}
   - component: {fileID: 1846331681}
+  - component: {fileID: 1846331682}
   m_Layer: 0
   m_Name: southern_europe
-  m_TagString: Untagged
+  m_TagString: Europe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11772,6 +12735,18 @@ PolygonCollider2D:
       - {x: -0.19677004, y: -0.088308774}
       - {x: -0.19682111, y: -0.09827303}
   m_UseDelaunayMesh: 0
+--- !u!114 &1846331682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846331678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1903966834
 GameObject:
   m_ObjectHideFlags: 0
@@ -11783,9 +12758,10 @@ GameObject:
   - component: {fileID: 1903966835}
   - component: {fileID: 1903966836}
   - component: {fileID: 1903966837}
+  - component: {fileID: 1903966838}
   m_Layer: 0
   m_Name: south_africa
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12042,6 +13018,18 @@ PolygonCollider2D:
       - {x: 0.4147204, y: -0.7814159}
       - {x: 0.4787077, y: -0.76233095}
   m_UseDelaunayMesh: 0
+--- !u!114 &1903966838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903966834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a88eed737e5cd4f9a9e3e3eeedf065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2027892189
 GameObject:
   m_ObjectHideFlags: 0
@@ -12126,3 +13114,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 1280601389}
+  - {fileID: 1652511571}
+  - {fileID: 1731060317}
+  - {fileID: 251965363}
