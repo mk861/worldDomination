@@ -37,7 +37,4 @@ public class Dice : MonoBehaviour
     finalSide += randomDiceSide; 
     Debug.Log(finalSide);
     }
-
-
-
 }
